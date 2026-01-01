@@ -59,7 +59,7 @@
 
         <div class="map-col">
           <div class="map-frame">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.483935116867!2d-49.0694506849554!3d-26.8881949831408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18f6b1a0b1a1%3A0x8f0b3b3b3b3b3b3b!2sR.%20Cel.%20Vidal%20Ramos%2C%20405%20-%20Jardim%20Blumenau%2C%20Blumenau%20-%20SC%2C%2089010-300!5e0!3m2!1sen!2sbr!4v1678886400000!5m2!1sen!2sbr" class="map-iframe" allowfullscreen="false" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.307807639718!2d-49.067327223729116!3d-26.925454693737883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df19ecdff69e81%3A0xc73fd1ac66958dc4!2sMeso%20Clinic!5e0!3m2!1sen!2sbr!4v1767278115226!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="false" class="map-iframe" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
