@@ -4,98 +4,36 @@
   <section class="services-section" id="servicos">
     <div class="container">
       <div class="section-title">
-        <h3>Áreas de Atuação</h3>
-        <h2>Cuidado neurológico focado na sua qualidade de vida</h2>
+        <h2>Compromisso em promover neuroprevenção, preservar e recuperar autonomia e qualidade de vida</h2>
         <p>Atuamos na investigação, diagnóstico e acompanhamento de condições que afetam o sistema nervoso central e periférico.</p>
       </div>
 
       <div class="services-grid">
         <article class="service-card">
           <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Cefaleias e Enxaquecas</h3>
-          <p>Manejo da dor para você retomar sua rotina.</p>
+          <h3>Dores de cabeça e Enxaqueca</h3>
+          <p>Bloqueios anestésicos em cefaleias</p>
         </article>
 
         <article class="service-card">
           <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Transtornos de Memória</h3>
-          <p>Investigação de Alzheimer e outras demências com acolhimento familiar.</p>
+          <h3>Consulta em Neurologia e Clínica Médica</h3>
+          <p>Acompanhamento em Consultório, Domiciliar e Hospitalar</p>
         </article>
 
         <article class="service-card">
           <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Doenças Cerebrovasculares (AVC)</h3>
-          <p>Prevenção e acompanhamento pós-evento.</p>
+          <h3>Reabilitação neurológica</h3>
+          <p>AVC, Dor, Fibromialgia, Ataxias, Parkinson, Enxaqueca Crônica.</p>
         </article>
 
         <article class="service-card">
           <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Transtornos do Movimento</h3>
-          <p>Parkinson, tremores e ataxias.</p>
+          <h3>Neuromodulação não-invasiva</h3>
+          <i class="fa-solid fa-check"></i><p>Estimulação Magnética transcraniana - EMT (TMS)</p>
+          <i class="fa-solid fa-check"></i><p>Estimulação trascraniana por corrente contínua (ETCC/TDCS)</p>
         </article>
-
-
-
-
-
-<!-- 
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Neurologia Geral</h3>
-          <p>Avaliação completa de alterações neurológicas, incluindo memória, tontura, formigamento e tremores.</p>
-          <div class="service-checks">
-            <div><i class="fa-solid fa-check"></i> Avaliação diagnóstica precisa</div>
-            <div><i class="fa-solid fa-check"></i> Tratamentos atualizados</div>
-          </div>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3>Neuroprevenção</h3>
-          <p>Avaliação preventiva e estratégias para manter a saúde cerebral, reduzindo riscos de doenças.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-head-side-cough"></i></div>
-          <h3>Tratamento de Cefaleias</h3>
-          <p>Especialização em enxaquecas, dores de cabeça tensionais e outros tipos com abordagens modernas.</p>
-          <div class="service-checks">
-            <div><i class="fa-solid fa-check"></i> Diagnóstico específico</div>
-            <div><i class="fa-solid fa-check"></i> Plano terapêutico personalizado</div>
-          </div>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
-          <h3>Neuromodulação</h3>
-          <p>Técnicas avançadas de estimulação cerebral para tratamento de dores crônicas e enxaquecas.</p>
-          <div class="service-checks">
-            <div><i class="fa-solid fa-check"></i> Formação SARAH e UNIFESP</div>
-            <div><i class="fa-solid fa-check"></i> Tecnologia de ponta</div>
-          </div>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-hand-holding-heart"></i></div>
-          <h3>Neurorreabilitação</h3>
-          <p>Recuperação funcional após AVC, traumatismos e outras lesões neurológicas com plano individualizado.</p>
-        </div>
-        <div class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-bed-pulse"></i></div>
-          <h3>Neurointensivismo</h3>
-          <p>Acompanhamento especializado pós-internação e cuidados intensivos neurológicos com formação Einstein.</p>
-        </div> -->
-        
       </div>
-
-      <!-- <div class="when-to-seek">
-        <h3 class="seek-title">Quando Procurar um Neurologista?</h3>
-        <div class="when-grid">
-          <div class="when-item">Dores de cabeça frequentes</div>
-          <div class="when-item">Tonturas e vertigens</div>
-          <div class="when-item">Alterações de memória</div>
-          <div class="when-item">Formigamentos inexplicados</div>
-          <div class="when-item">Tremores involuntários</div>
-          <div class="when-item">Dificuldade de concentração</div>
-        </div>
-        <button class="btn btn-white">Ver Todos os Serviços <i class="fa-solid fa-arrow-right"></i></button>
-      </div> -->
     </div>
   </section>
 </template>
@@ -103,63 +41,63 @@
 <style scoped>
 .services-section {
   background-color: var(--bg-dark-green);
-  padding: 4rem 0;
+  padding: 2rem 0;
   color: var(--text-light);
   text-align: center;
-  min-height: 100vh;
+  height: 95vh;
+  min-height: 650px;
   display: flex;
   align-items: center;
 }
 
-.section-title h4 {
-  color: #aaa;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
-}
-
 .section-title h2 {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
+  font-size: 2.0rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
 }
 
 .section-title p {
   color: #bbb;
-  max-width: 600px;
-  margin: 0 auto 4rem;
+  max-width: 700px;
+  margin: 0 auto 2.5rem;
+  font-size: 1rem;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
   text-align: left;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 .service-card {
   background: var(--bg-beige);
   border: 1px solid rgba(0,0,0,0.05);
-  padding: 2.5rem 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
   transition: 0.3s;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .service-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
 
 .service-icon {
   background: var(--primary-green);
-  width: 50px; height: 50px;
+  width: 40px; height: 40px;
   display: flex; align-items: center; justify-content: center;
   border-radius: 8px;
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
   color: #fff;
 }
 
-.service-card h3 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--bg-dark-green); font-weight: 600; }
-.service-card p { font-size: 0.95rem; color: var(--text-gray); margin-bottom: 0; }
+.service-card h3 { font-size: 1.15rem; margin-bottom: 0.75rem; color: var(--bg-dark-green); font-weight: 600; line-height: 1.3; }
+.service-card p { font-size: 0.9rem; color: var(--text-gray); margin-bottom: 0.5rem; line-height: 1.4; }
+.service-card i.fa-check { color: var(--primary-green); font-size: 0.8rem; margin-right: 5px; display: inline-block; }
+.service-card p:last-child { margin-bottom: 0; }
 
 .service-checks i { color: #DACBA9; margin-right: 8px; font-size: 0.8rem; }
 .service-checks div { margin-bottom: 5px; font-size: 0.85rem; color: #ddd; }
@@ -167,23 +105,25 @@
 .when-to-seek {
   background: #503b28;
   border-radius: 12px;
-  padding: 3rem;
+  padding: 1.5rem;
   text-align: center;
+  margin-top: 1.5rem;
 }
 
 .seek-title {
   color: white; 
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .when-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 0.8rem;
   text-align: left;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
-.when-item { font-size: 0.9rem; color: #f0f0f0; }
+.when-item { font-size: 0.8rem; color: #f0f0f0; }
 .when-item::before { content: '●'; color: #DACBA9; margin-right: 8px; }
 
 .btn-white {
