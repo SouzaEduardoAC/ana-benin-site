@@ -38,7 +38,10 @@
 <style scoped>
 .media-section {
   background-color: var(--bg-beige);
-  padding: 5rem 0;
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .media-header { text-align: center; margin-bottom: 3rem; }

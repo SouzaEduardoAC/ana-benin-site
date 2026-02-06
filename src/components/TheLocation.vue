@@ -70,7 +70,10 @@
 <style scoped>
 .location-section {
   background-color: var(--bg-beige);
-  padding: 3rem 0 6rem;
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .location-title { text-align: center; margin-bottom: 3rem; }

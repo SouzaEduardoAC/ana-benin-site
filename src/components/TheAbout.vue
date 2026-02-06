@@ -6,9 +6,9 @@ import anaImage from '@/assets/foto_ana_benin.png'
   <section class="about-section" id="sobre">
     <div class="container">
       <div class="about-grid">
-        <div class="about-img">
+        <!-- <div class="about-img">
           <img :src="anaImage" alt="Mãos Médicas">
-        </div>
+        </div> -->
         <div class="about-text">
           <h3>Compromisso com a sua história clínica</h3>
           <h1>Dra. Ana Benin</h1>
@@ -86,13 +86,9 @@ import anaImage from '@/assets/foto_ana_benin.png'
 <style scoped>
 .about-section {
   background-color: var(--bg-beige);
-  padding: 6rem 0;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  padding: 4rem 0;
+  min-height: 100vh;
+  display: flex;
   align-items: center;
 }
 
