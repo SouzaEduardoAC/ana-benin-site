@@ -103,9 +103,12 @@
 <style scoped>
 .services-section {
   background-color: var(--bg-dark-green);
-  padding: 5rem 0;
+  padding: 4rem 0;
   color: var(--text-light);
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .section-title h4 {

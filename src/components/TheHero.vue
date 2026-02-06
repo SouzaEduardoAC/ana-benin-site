@@ -17,6 +17,7 @@ import anaImage from '@/assets/aaacdad5-f3eb-41c0-a587-f0f49495c92c.jpeg'
           
           <div class="cta-group">
             <a href="https://wa.me/5547996987678" class="btn btn-primary" target="_blank"><i class="fa-brands fa-whatsapp"></i> Agendar Minha Consulta</a>
+            <a href="#servicos" class="btn btn-outline">Conhecer Serviços <i class="fa-solid fa-arrow-right"></i></a>
           </div>
 
           <div class="meso-clinic-info">
