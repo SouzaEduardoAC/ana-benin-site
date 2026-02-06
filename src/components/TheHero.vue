@@ -13,7 +13,7 @@ import backgroundImage from '@/assets/the_hero_background.png'
         
         <div class="cta-group">
           <a href="https://wa.me/5547996987678" class="btn btn-primary" target="_blank"><i class="fa-brands fa-whatsapp"></i> Agendar Minha Consulta</a>
-          <a href="#servicos" class="btn btn-outline">Conhecer Serviços <i class="fa-solid fa-arrow-right"></i></a>
+          <!-- <a href="#servicos" class="btn btn-outline">Conhecer Serviços <i class="fa-solid fa-arrow-right"></i></a> -->
         </div>
 
         <div class="meso-clinic-info">
