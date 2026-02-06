@@ -84,7 +84,7 @@
         
       </div>
 
-      <div class="when-to-seek">
+      <!-- <div class="when-to-seek">
         <h3 class="seek-title">Quando Procurar um Neurologista?</h3>
         <div class="when-grid">
           <div class="when-item">Dores de cabeça frequentes</div>
@@ -94,8 +94,8 @@
           <div class="when-item">Tremores involuntários</div>
           <div class="when-item">Dificuldade de concentração</div>
         </div>
-        <!-- <button class="btn btn-white">Ver Todos os Serviços <i class="fa-solid fa-arrow-right"></i></button> -->
-      </div>
+        <button class="btn btn-white">Ver Todos os Serviços <i class="fa-solid fa-arrow-right"></i></button>
+      </div> -->
     </div>
   </section>
 </template>
@@ -139,16 +139,17 @@
 }
 
 .service-card {
-  background: #5f645c;
-  border: 1px solid var(--card-border);
-  padding: 2rem;
+  background: var(--bg-beige);
+  border: 1px solid rgba(0,0,0,0.05);
+  padding: 2.5rem 2rem;
   border-radius: 12px;
   transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-.service-card:hover { transform: translateY(-5px); background: rgba(255,255,255,0.08); }
+.service-card:hover { transform: translateY(-5px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
 
 .service-icon {
-  background: rgba(255,255,255,0.1);
+  background: var(--primary-green);
   width: 50px; height: 50px;
   display: flex; align-items: center; justify-content: center;
   border-radius: 8px;
@@ -157,8 +158,8 @@
   color: #fff;
 }
 
-.service-card h3 { font-size: 1.25rem; margin-bottom: 1rem; color: #DACBA9; }
-.service-card p { font-size: 0.9rem; color: #ccc; margin-bottom: 1.5rem; }
+.service-card h3 { font-size: 1.25rem; margin-bottom: 1rem; color: var(--bg-dark-green); font-weight: 600; }
+.service-card p { font-size: 0.95rem; color: var(--text-gray); margin-bottom: 0; }
 
 .service-checks i { color: #DACBA9; margin-right: 8px; font-size: 0.8rem; }
 .service-checks div { margin-bottom: 5px; font-size: 0.85rem; color: #ddd; }
