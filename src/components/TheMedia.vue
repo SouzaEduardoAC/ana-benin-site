@@ -111,5 +111,8 @@
 
 @media (max-width: 900px) {
   .news-card, .stats-row { grid-template-columns: 1fr; }
+  .news-content { padding: 2rem 1.5rem; }
+  .news-content h3 { font-size: 1.5rem; }
+  .media-header h2 { font-size: 1.8rem; }
 }
 </style>

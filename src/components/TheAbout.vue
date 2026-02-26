@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import anaImage from '@/assets/foto_ana_benin.png'
 </script>
 
 <template>
@@ -161,5 +160,14 @@ import anaImage from '@/assets/foto_ana_benin.png'
 
 @media (max-width: 900px) {
   .about-grid { grid-template-columns: 1fr; }
+  .about-section {
+    padding: 5rem 0;
+  }
+  .about-text h1 {
+    font-size: 2.2rem;
+  }
+  .mini-cards {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

@@ -41,34 +41,42 @@
 <style scoped>
 .services-section {
   background-color: var(--bg-dark-green);
-  padding: 2rem 0;
+  padding: 5rem 0;
   color: var(--text-light);
   text-align: center;
-  height: 95vh;
-  min-height: 650px;
+  min-height: 95vh;
   display: flex;
   align-items: center;
 }
 
 .section-title h2 {
-  font-size: 2.0rem;
-  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
   line-height: 1.2;
 }
 
 .section-title p {
   color: #bbb;
   max-width: 700px;
-  margin: 0 auto 2.5rem;
-  font-size: 1rem;
+  margin: 0 auto 3rem;
+  font-size: 1.1rem;
 }
 
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.2rem;
+  gap: 1.5rem;
   text-align: left;
-  margin-bottom: 0;
+}
+
+@media (max-width: 850px) {
+  .services-section {
+    padding: 6rem 0;
+    height: auto;
+  }
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
 }
 
 .service-card {

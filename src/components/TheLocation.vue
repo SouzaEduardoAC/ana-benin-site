@@ -162,5 +162,8 @@
 
 @media (max-width: 900px) {
   .location-grid { grid-template-columns: 1fr; }
+  .location-section { padding: 4rem 0; }
+  .location-title h2 { font-size: 2.2rem; }
+  .info-card-grid { grid-template-columns: 1fr; }
 }
 </style>

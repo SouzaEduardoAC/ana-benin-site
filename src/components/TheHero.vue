@@ -38,8 +38,7 @@ import anaImage from '@/assets/aaacdad5-f3eb-41c0-a587-f0f49495c92c.jpeg'
 <style scoped>
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 650px;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: var(--bg-beige);
@@ -146,16 +145,29 @@ import anaImage from '@/assets/aaacdad5-f3eb-41c0-a587-f0f49495c92c.jpeg'
 }
 
 @media (max-width: 850px) {
+  .hero {
+    height: auto;
+  }
   .hero-split {
     flex-direction: column;
   }
   .hero-image {
-    height: 45vh;
+    height: 40vh;
     flex: none;
   }
   .hero-content-side {
-    padding: 3rem 1.5rem 6rem;
+    padding: 6.5rem 1.5rem 4.5rem;
   }
   .hero h1 { font-size: 2.2rem; }
+  .wave-bottom {
+    display: none;
+  }
+  .cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
 }
 </style>

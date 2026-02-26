@@ -57,5 +57,8 @@ nav a:hover { color: white; }
 
 @media (max-width: 900px) {
   nav ul { display: none; }
+  .logo-img { height: 45px; }
+  header { padding: 0.8rem 0; }
+  .logo { font-size: 1.1rem; }
 }
 </style>
