@@ -11,7 +11,7 @@ import anaImage from '@/assets/aaacdad5-f3eb-41c0-a587-f0f49495c92c.jpeg'
       <div class="hero-content-side">
         <div class="hero-content">
           <div class="badge-hero">CRM-SC 20559 | RQE 15294 / 20078</div>
-          <h1>Neurologia e Medicina Interna com visão integral da sua saúde</h1>
+          <h1>Neurologia e Clínica Médica com visão integral da sua saúde</h1>
           <p>Diagnóstico preciso e tratamento humanizado baseado em evidências. 
             <strong>Atendimento especializado em Blumenau.</strong></p>
           

@@ -5,7 +5,7 @@
     <div class="container">
       <div class="section-title">
         <h2>Compromisso em promover neuroprevenção, preservar e recuperar autonomia e qualidade de vida</h2>
-        <p>Atuamos na investigação, diagnóstico e acompanhamento de condições que afetam o sistema nervoso central e periférico.</p>
+        <p>Atuamos na investigação, diagnóstico e tratamento de condições que afetam o sistema nervoso central e periférico.</p>
       </div>
 
       <div class="services-grid">
@@ -13,6 +13,29 @@
           <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
           <h3>Dores de cabeça e Enxaqueca</h3>
           <p>Bloqueios anestésicos em cefaleias</p>
+          <p>Toxina Botulínica</p>
+          <p>Anticorpos monoclonais (vacinas)</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Neuromodulação não-invasiva</h3>
+          <p>Estimulação Magnética transcraniana - EMT (TMS)</p>
+          <p>Estimulação trascraniana por corrente contínua (ETCC/TDCS)</p>
+        </article>
+        
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Reabilitação neurológica</h3>
+          <p>Fibromialgia e Dor Crônica</p>
+          <p>AVC</p>
+          <p>Distúrbios de Movimento (Ataxias, Parkinson)</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Longevidade e Saúde do Cérebro</h3>
+          <p>Plano de ação em medicina do estilo de vida e neuroprevenção de doenças neurodegenerativas e perda de autonomia</p>
         </article>
 
         <article class="service-card">
@@ -21,18 +44,6 @@
           <p>Acompanhamento em Consultório, Domiciliar e Hospitalar</p>
         </article>
 
-        <article class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Reabilitação neurológica</h3>
-          <p>AVC, Dor, Fibromialgia, Ataxias, Parkinson, Enxaqueca Crônica.</p>
-        </article>
-
-        <article class="service-card">
-          <div class="service-icon"><i class="fa-solid fa-brain"></i></div>
-          <h3>Neuromodulação não-invasiva</h3>
-          <i class="fa-solid fa-check"></i><p>Estimulação Magnética transcraniana - EMT (TMS)</p>
-          <i class="fa-solid fa-check"></i><p>Estimulação trascraniana por corrente contínua (ETCC/TDCS)</p>
-        </article>
       </div>
     </div>
   </section>
