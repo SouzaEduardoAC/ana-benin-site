@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <section class="about-section" id="sobre">
@@ -18,12 +17,16 @@
           </div>
 
           <p>
-            A medicina vai muito além de tratar sintomas ou de tecnologias avançadas; trata-se de compreender a pessoa.
-            Sou a <strong>Dra. Ana Caroline Benin</strong>, médica especialista em Neurologia e Medicina Interna.
+            A medicina vai muito além de tratar sintomas ou de tecnologias
+            avançadas; trata-se de compreender a pessoa. Sou a
+            <strong>Dra. Ana Caroline Benin</strong>, médica especialista em
+            Neurologia e Medicina Interna.
           </p>
           <p>
-            Minha prática clínica une o rigor técnico da especialidade com uma escuta ativa e ética. 
-            Acredito que um diagnóstico correto é o primeiro passo para recuperar a liberdade de viver bem e fazer boas escolhas.
+            Minha prática clínica une o rigor técnico da especialidade com uma
+            escuta ativa e ética. Acredito que um diagnóstico correto é o
+            primeiro passo para recuperar a liberdade de viver bem e fazer boas
+            escolhas.
           </p>
 
           <div class="mini-cards">
@@ -75,7 +78,13 @@
             </div>
           </div>
 
-          <a href="http://lattes.cnpq.br/7371424791523298" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ver Currículo Lattes<i class="fa-solid fa-arrow-right"></i></a>
+          <a
+            href="http://lattes.cnpq.br/7371424791523298"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            >Ver Currículo Lattes<i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -94,7 +103,7 @@
 .about-img {
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .about-text h4 {
@@ -117,7 +126,7 @@
   margin-bottom: 1.5rem;
 }
 .crm-tag {
-  background: #3A3A3A;
+  background: #3a3a3a;
   color: white;
   padding: 4px 12px;
   border-radius: 20px;
@@ -145,11 +154,20 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
-.mini-card i { font-size: 1.5rem; color: var(--primary-green); }
-.mini-card div h5 { font-size: 0.9rem; margin-bottom: 2px; }
-.mini-card div span { font-size: 0.75rem; color: #777; }
+.mini-card i {
+  font-size: 1.5rem;
+  color: var(--primary-green);
+}
+.mini-card div h5 {
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+.mini-card div span {
+  font-size: 0.75rem;
+  color: #777;
+}
 
 .lattes-link {
   margin-left: 15px;
@@ -159,7 +177,9 @@
 }
 
 @media (max-width: 900px) {
-  .about-grid { grid-template-columns: 1fr; }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
   .about-section {
     padding: 5rem 0;
   }

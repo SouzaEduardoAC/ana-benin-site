@@ -1,21 +1,21 @@
 :root {
-  --bg-dark-green-graysh: #38423B;      /* Fundo Seção Serviços/Footer */
-  --bg-dark-green: #3D4639;
-  --bg-beige: #F3F2EE;           /* Fundo Seções Claras */
-  --primary-green: #526F4F;      /* Botões e Destaques */
-  --primary-hover: #415A3F;
-  --accent-brown: #8C7867;       /* Tons terrosos/dourados */
-  --text-light: #F9F9F9;
-  --text-dark: #2C2C2C;
+  --bg-dark-green-graysh: #38423b; /* Fundo Seção Serviços/Footer */
+  --bg-dark-green: #3d4639;
+  --bg-beige: #f3f2ee; /* Fundo Seções Claras */
+  --primary-green: #526f4f; /* Botões e Destaques */
+  --primary-hover: #415a3f;
+  --accent-brown: #8c7867; /* Tons terrosos/dourados */
+  --text-light: #f9f9f9;
+  --text-dark: #2c2c2c;
   --text-gray: #555555;
   --card-border: rgba(255, 255, 255, 0.1);
   --service-card-brown: #ff64960d;
-  
+
   --max-width: 1200px;
   --radius: 8px;
 
-  --font-body: 'Poppins', sans-serif;
-  --font-title: 'Berdiate', sans-serif;
+  --font-body: "Poppins", sans-serif;
+  --font-title: "Berdiate", sans-serif;
 }
 
 /* @font-face {
@@ -39,13 +39,26 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-title);
 }
 
-a { text-decoration: none; transition: 0.3s; }
-ul { list-style: none; }
-img { max-width: 100%; display: block; }
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
 
 .container {
   max-width: var(--max-width);
@@ -57,9 +70,15 @@ img { max-width: 100%; display: block; }
   .container {
     padding: 0 16px;
   }
-  h1 { font-size: 2.2rem !important; }
-  h2 { font-size: 1.8rem !important; }
-  h3 { font-size: 1.5rem !important; }
+  h1 {
+    font-size: 2.2rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
 }
 
 /* --- BOTÕES GLOBAIS --- */
@@ -80,18 +99,25 @@ img { max-width: 100%; display: block; }
   background-color: var(--primary-green);
   color: white;
 }
-.btn-primary:hover { background-color: var(--primary-hover); }
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
 
 .btn-outline {
   background: transparent;
   border: 1px solid var(--accent-brown);
   color: white;
 }
-.btn-outline:hover { background: rgba(140, 120, 103, 0.2); }
+.btn-outline:hover {
+  background: rgba(140, 120, 103, 0.2);
+}
 
 .btn-outline-dark {
   background: transparent;
   border: 1px solid var(--primary-green);
   color: var(--primary-green);
 }
-.btn-outline-dark:hover { background: var(--primary-green); color: white; }
+.btn-outline-dark:hover {
+  background: var(--primary-green);
+  color: white;
+}

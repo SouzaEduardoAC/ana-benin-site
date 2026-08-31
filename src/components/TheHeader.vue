@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import logoUrl from '@/assets/logo_no_background.png'
+import logoUrl from "@/assets/logo_no_background.png";
 </script>
 
 <template>
   <header>
     <div class="container">
       <div class="logo">
-        <img :src="logoUrl" alt="AB Neuro Logo" class="logo-img"> Dra. Ana Benin
+        <img :src="logoUrl" alt="AB Neuro Logo" class="logo-img" /> Dra. Ana
+        Benin
       </div>
       <nav>
         <ul>
@@ -28,7 +29,7 @@ header {
   width: 100%;
   z-index: 100;
   padding: 1.5rem 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
 }
 
 header .container {
@@ -42,7 +43,7 @@ header .container {
   align-items: center;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #A68E76;
+  color: #a68e76;
 }
 
 .logo-img {
@@ -51,14 +52,31 @@ header .container {
   margin-right: 10px;
 }
 
-nav ul { display: flex; gap: 2rem; }
-nav a { color: #ddd; font-size: 0.9rem; font-weight: 500; }
-nav a:hover { color: white; }
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav a {
+  color: #ddd;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+nav a:hover {
+  color: white;
+}
 
 @media (max-width: 900px) {
-  nav ul { display: none; }
-  .logo-img { height: 45px; }
-  header { padding: 0.8rem 0; }
-  .logo { font-size: 1.1rem; }
+  nav ul {
+    display: none;
+  }
+  .logo-img {
+    height: 45px;
+  }
+  header {
+    padding: 0.8rem 0;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
 }
 </style>
