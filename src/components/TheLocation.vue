@@ -54,8 +54,9 @@
           <div class="address-card">
             <h3><i class="fa-solid fa-location-dot"></i> Endereço</h3>
             <p class="addr-text">
-              R. Hermann Huscher, 113, sala 209<br />Vila Formosa - Blumenau -
-              SC, 89023-000
+              <strong>CR7 Alameda Business</strong><br />
+              R. Hermann Huscher, 113, sala 209<br />
+              Vila Formosa - Blumenau - SC, 89023-000
             </p>
             <hr class="addr-divider" />
             <ul>
@@ -73,7 +74,7 @@
         <div class="map-col">
           <div class="map-frame">
             <iframe
-              src="https://maps.google.com/maps?q=R.+Hermann+Huscher,+113+-+Vila+Formosa,+Blumenau+-+SC,+89023-000&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=CR7+Alameda+Business,+Rua+Hermann+Huscher,+113+-+Vila+Formosa,+Blumenau+-+SC,+89023-000&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               width="600"
               height="450"
               style="border: 0"
