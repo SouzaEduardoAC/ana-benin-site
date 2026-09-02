@@ -2,7 +2,35 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
+    <!-- Responsive Theme-Aware Favicon (SVG with internal dark/light media query) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <!-- Dynamic PNG Fallback -->
+    <link id="dynamic-favicon" rel="icon" type="image/png" sizes="32x32" href="/favicon-light-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <script>
+      (function () {
+        function syncFavicon(e) {
+          try {
+            var isDark = e ? e.matches : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            var targetHref = isDark ? '/favicon-dark-32x32.png' : '/favicon-light-32x32.png';
+            var existing = document.getElementById('dynamic-favicon');
+            if (existing) {
+              existing.href = targetHref;
+            }
+          } catch (err) {}
+        }
+        syncFavicon();
+        if (window.matchMedia) {
+          var mql = window.matchMedia('(prefers-color-scheme: dark)');
+          if (mql.addEventListener) {
+            mql.addEventListener('change', syncFavicon);
+          } else if (mql.addListener) {
+            mql.addListener(syncFavicon);
+          }
+        }
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dra. Ana Caroline Benin</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
