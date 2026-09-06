@@ -2,11 +2,16 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8">
-    <!-- Responsive Theme-Aware Favicon (SVG with internal dark/light media query) -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <!-- Dynamic PNG Fallback -->
-    <link id="dynamic-favicon" rel="icon" type="image/png" sizes="32x32" href="/favicon-light-32x32.png">
+    <!-- Google Search & Root Favicon (Google requires a multiple of 48px square, e.g. 48x48, 96x96, 192x192) -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- Responsive Theme-Aware Favicon for Modern Browsers -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link id="dynamic-favicon" rel="icon" type="image/png" sizes="32x32" href="/favicon-light-32x32.png">
 
     <script>
       (function () {
